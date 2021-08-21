@@ -1,0 +1,16 @@
+.login-modal {
+    position: fixed;
+    margin: auto;
+    width: 25rem;
+    text-align: center;
+    aspect-ratio: 1 / 1;
+    inset: 0;
+}
+
+.MuiFormControl-root {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 60%;
+    width: 100%;
+}

@@ -1,0 +1,51 @@
+.MuiPaper-root {
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px 0 0px;
+}
+
+.cart-quantity {
+    position: absolute;
+    bottom: -2px;
+    width: 20px;
+    color: white;
+    height: 20px;
+    background: #9ba6e6;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 50%;
+    left: 13px;
+}
+
+.item-cart {
+    display: grid;
+    grid-template-columns: 30% 50% 20%;
+}
+
+.img-cart {
+    justify-self: center;
+    width: 150px;
+}
+
+.img-cart img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.infor-cart {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.infor-cart button {
+    max-width: 80px;
+}
+
+.func-cart {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}

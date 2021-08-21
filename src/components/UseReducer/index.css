@@ -1,0 +1,15 @@
+.reducer-container {
+    width: 50%;
+    height: 250px;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column !important;
+    background-color: #dad8d833;
+    margin-top: 10%;
+}
+
+.reducer-container button {
+    margin-left: 12px;
+    transform: translate(10px, 10px);
+}
